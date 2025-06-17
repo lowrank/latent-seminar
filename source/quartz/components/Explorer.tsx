@@ -26,10 +26,10 @@ const defaultOptions = {
         return a.file.dates < b.file.dates ? 1 : -1
       }
       
-      return a.displayName.localeCompare(b.displayName, undefined, {
-        numeric: true,
-        sensitivity: "base",
-      })
+      // return a.displayName.localeCompare(b.displayName, undefined, {
+      //   numeric: true,
+      //   sensitivity: "base",
+      // })
     }
 
     if (a.file && !b.file) {
