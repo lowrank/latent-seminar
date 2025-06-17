@@ -14,6 +14,27 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+
+Component.Explorer({
+  sortFn: (a, b) => {
+    if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+      // sort by created date, then by display name
+      if (a.created !== b.created) {
+        return a.created < b.created ? 1 : -1
+      // return a.displayName.localeCompare(b.displayName, undefined, {
+      //   numeric: true,
+      //   sensitivity: "base",
+      // })
+    }
+ 
+    if (!a.isFolder && b.isFolder) {
+      return 1
+    } else {
+      return -1
+    }
+  },
+})
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
