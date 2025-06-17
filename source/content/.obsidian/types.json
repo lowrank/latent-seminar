@@ -6,6 +6,7 @@
     "created_date": "date",
     "annotation-target": "checkbox",
     "exercise": "checkbox",
-    "comments": "text"
+    "comments": "text",
+    "date": "date"
   }
 }

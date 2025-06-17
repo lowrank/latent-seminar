@@ -1,8 +1,9 @@
 ---
-created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
-updated_date: <% tp.file.last_modified_date('YYYY-MM-DD') %>
+date: <% tp.file.creation_date('YYYY-MM-DD') %>
 tags:
-  - "#note"
+  - math-AP
+  - math-NA
+comments: "false"
 ---
 <%*
   let title = tp.file.title
