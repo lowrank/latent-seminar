@@ -1,8 +1,9 @@
 ---
-date: 2025-05-19
+date: 2022-09-26
 tags:
   - math-AP
-description: "true"
+  - math-CA
+comments: "true"
 ---
 
 
