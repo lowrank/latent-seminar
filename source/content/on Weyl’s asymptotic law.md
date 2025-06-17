@@ -1,5 +1,5 @@
 ---
-created: 2025-06-02
+date: 2025-06-02
 tags:
   - math-AP
   - math-MP
