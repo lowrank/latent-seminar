@@ -21,12 +21,17 @@ Component.Explorer({
       // sort by created date, then by display name
       if (a.created !== b.created) {
         return a.created < b.created ? 1 : -1
+      }
       // return a.displayName.localeCompare(b.displayName, undefined, {
       //   numeric: true,
       //   sensitivity: "base",
       // })
+      return a.displayName.localeCompare(b.displayName, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      })
     }
- 
+
     if (!a.isFolder && b.isFolder) {
       return 1
     } else {
