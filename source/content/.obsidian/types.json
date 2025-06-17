@@ -5,6 +5,7 @@
     "tags": "tags",
     "created_date": "date",
     "annotation-target": "checkbox",
-    "exercise": "checkbox"
+    "exercise": "checkbox",
+    "comments": "text"
   }
 }

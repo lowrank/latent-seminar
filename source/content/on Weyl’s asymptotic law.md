@@ -1,9 +1,9 @@
 ---
-created_date: 2025-06-02
+created: 2025-06-02
 tags:
   - math-AP
   - math-MP
-exercise: false
+comments: "false"
 ---
 ## Motivation
 
