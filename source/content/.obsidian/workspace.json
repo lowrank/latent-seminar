@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "on diffusion models.md",
+                "file": "2025S/on diffusion models.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "on interpolation theorems.md",
+                "file": "2025S/on interpolation theorems.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "2025S/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "2025S/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "2025S/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "2025S/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,11 +202,13 @@
   },
   "active": "efacd0446b3d76ee",
   "lastOpenFiles": [
-    "on Hardy inequalities.md",
-    "on interpolation theorems.md",
-    "on diffusion models.md",
+    "2025S/on diffusion models.md",
+    "2025S/index.md",
     "index.md",
-    "on Weyl’s asymptotic law.md",
+    "2025S",
+    "2025S/on Hardy inequalities.md",
+    "2025S/on interpolation theorems.md",
+    "2025S/on Weyl’s asymptotic law.md",
     "templates/(Template) Notes.md",
     "2025-06-02.md",
     "images/banner.png",
