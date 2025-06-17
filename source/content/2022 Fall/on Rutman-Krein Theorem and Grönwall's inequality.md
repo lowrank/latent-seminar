@@ -41,7 +41,9 @@ and
 
 $$
 \mathcal{A} S f = \int_{V}\int_0^{\infty} \int_{\mathbb{R}^d} \frac{E(x-sv, y)}{|x-sv-y|^{d-1}} f(y) dy ds dv = \int_{V} \int_0^{\infty} \int_{\mathbb{R}^d} \frac{E(x-sv, y'-sv)}{|x - y'|^{d-1}} f(y'-sv) dy' ds dv.
-$$ Therefore $\mathcal{A} S = S \mathcal{A}$.  That is, if
+$$
+
+Therefore $\mathcal{A} S = S \mathcal{A}$.  That is, if
 
 $$
 0\le f(x) \le C \mathcal{A} f + \Sigma_s \int_{D} \frac{e^{-\Sigma_s|x-y|}}{|x-y|^{d-1}} f(y) dy.
