@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "on Hardy inequalities.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "on Hardy inequalities"
+              "title": "index"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "on Hardy inequalities.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for on Hardy inequalities"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "on Hardy inequalities.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from on Hardy inequalities"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "on Hardy inequalities.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of on Hardy inequalities"
+              "title": "Outline of index"
             }
           }
         ]
@@ -202,8 +202,8 @@
   },
   "active": "efacd0446b3d76ee",
   "lastOpenFiles": [
-    "on interpolation theorems.md",
     "on Hardy inequalities.md",
+    "on interpolation theorems.md",
     "on diffusion models.md",
     "index.md",
     "on Weyl’s asymptotic law.md",
