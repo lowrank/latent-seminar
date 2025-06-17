@@ -1,7 +1,10 @@
 ---
-title: My GitHub Pages Notebook!
+title: Welcome to Latent Seminar
 ---
 
-Hello world!!
+![](./images/banner.png)
 
-Write some words here!
+>[!note]
+> This ''non-existent'' seminar is purely for personal interests. 
+
+
