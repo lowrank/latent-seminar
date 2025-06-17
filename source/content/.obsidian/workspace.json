@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025S/on diffusion models.md",
+                "file": "2025 Summer/on diffusion models.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025S/on interpolation theorems.md",
+                "file": "2025 Summer/on interpolation theorems.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025S/on diffusion models.md",
+                "file": "2025 Summer/on diffusion models.md",
                 "mode": "source",
                 "source": false
               },
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025S/on diffusion models.md",
+                "file": "2025 Summer/on diffusion models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025S/on diffusion models.md",
+                "file": "2025 Summer/on diffusion models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025S/on diffusion models.md",
+                "file": "2025 Summer/on diffusion models.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -200,15 +200,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "efacd0446b3d76ee",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "2022 Fall",
+    "2023 Spring",
+    "2023 Summer",
+    "2023 Fall",
+    "2024 Spring",
+    "2025 Spring",
     "2025S/index.md",
-    "2025S/on diffusion models.md",
+    "2025 Summer/on diffusion models.md",
     "index.md",
-    "2025S",
-    "2025S/on Hardy inequalities.md",
-    "2025S/on interpolation theorems.md",
-    "2025S/on Weyl’s asymptotic law.md",
+    "2025 Summer",
+    "2025 Summer/on Hardy inequalities.md",
+    "2025 Summer/on interpolation theorems.md",
+    "2025 Summer/on Weyl’s asymptotic law.md",
     "templates/(Template) Notes.md",
     "2025-06-02.md",
     "images/banner.png",
