@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "2022 Fall/on an application of Grönwall's inequality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "on an application of Grönwall's inequality"
             }
           }
         ]
@@ -173,7 +173,8 @@
   },
   "active": "ee7d1a93669c5a22",
   "lastOpenFiles": [
-    "2022 Fall/on Rutman-Krein Theorem and Grönwall's inequality.md",
+    "index.md",
+    "2022 Fall/on an application of Grönwall's inequality.md",
     "2025 Summer/on diffusion models.md",
     "2025 Summer/on interpolation theorems.md",
     "2025 Summer/on Hardy inequalities.md",
@@ -185,7 +186,6 @@
     "2024 Spring",
     "2025 Spring",
     "2025S/index.md",
-    "index.md",
     "2025 Summer",
     "2025 Summer/on Weyl’s asymptotic law.md",
     "templates/(Template) Notes.md",

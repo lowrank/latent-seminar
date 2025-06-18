@@ -3,5 +3,6 @@
   "templater-obsidian",
   "table-editor-obsidian",
   "obsidian-admonition",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-languagetool-plugin"
 ]
