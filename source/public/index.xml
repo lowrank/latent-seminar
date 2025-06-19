@@ -15,7 +15,7 @@
     <title>Welcome to Latent Seminar</title>
     <link>https://lowrank.github.io/latent-seminar/</link>
     <guid>https://lowrank.github.io/latent-seminar/</guid>
-    <description> Note This seminar series is purely for personal interests. 📊 Tag Distribution.</description>
+    <description> Note This seminar series is purely for personal interests. 📊 Tag Distribution --- config: theme: &quot;base&quot; themeVariables: primaryColor: &#039;#81c8be&#039; secondaryColor: &#039;#e5c890&#039; tertiaryColor: &#039;#8caaee&#039; --- pie title &quot;math-PR&quot; : 1 &quot;math-CA&quot; : 3 &quot;math-CO&quot; : 1 &quot;math-NA&quot; : 4 &quot;math-AP&quot; : 6 &quot;math-MP&quot; : 1 &quot;cs-LG&quot; : 1 .</description>
     <pubDate>Tue, 17 Jun 2025 04:23:54 GMT</pubDate>
   </item><item>
     <title>on Weyl’s asymptotic law</title>
