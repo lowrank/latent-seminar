@@ -6,7 +6,7 @@ tags:
 comments: "true"
 ---
 
-## Introduction
+## 🏷️Introduction
 We start with a simple application of Grönwall's inequality.
 
 > [!important]  Grönwall's inequality
@@ -40,7 +40,7 @@ Observe that $0\le f(x) \le \mathcal{A} f(x)$ implies $0\le f(x) \le \mathcal{A}
 
 ---
 
-## Extension
+## 📝Extension
  If there is another operator $\mathcal{B}$ that commutes with $\mathcal A$, then the spectral radius $r(\mathcal{A} + \mathcal{B})$ can be estimated. We consider the abstract problem as follows.
  
 >[!note] Extension of Grönwall's inequality
@@ -54,7 +54,7 @@ The commutativity implies an estimate $r(\mathcal A + \mathcal{B}) \le r(\mathca
 
 This conclusion seems somewhat trivial.  Let us consider an immediate application in transport equation. 
 
-### Background of transport equation
+### 📖Background of transport equation
 The transport equation describes the dynamics of radiative particles interacting with the environment (absorption, scattering, etc.). For instance, supposing the medium is homogeneous, the governing equation can be written in the following form:
 
 $$
@@ -70,7 +70,7 @@ $$
 \Gamma_{-} = \left\{(x, v)\in\partial D\times \mathbb{S}^{d-1}\mid v\cdot n(x) < 0 \right\}. 
 $$
 
-### Cone-beam source
+### 🔦Cone-beam source
 
 The cone-beam source function means $h(x, v)$ is quite focusing. The precise definition is the following.
 
@@ -89,7 +89,7 @@ $$
 
 where $\tau_{-}(x, v)$ denotes the distance from $x$ to the boundary following $-v$ direction.
 
-### Nonlinearity
+### 〰️Nonlinearity
 
 In a practical scenario, $\sigma_a$ may depend on the solution's flux (e.g., multi-photon absorption), therefore we obtain a nonlinear equation
 
@@ -125,7 +125,7 @@ where $\overline{h} = \sup_{\Gamma_{-}} h$ and $C$ is a constant.  This inequali
 >[!note] Remark
 >The general uniqueness can be proved in a different flavor, but it requires slightly more restrictive dependence of $\sigma_a$ on $\langle {u} \rangle$. For scatter-free medium plus a cone-beam source, it only needs Lipschitz continuity.
 
-### Isotropic Scattering
+### 🌀Isotropic Scattering
 
 Once the scattering is present, the uniqueness is slightly more challenging (*there is an alternative way to prove this*), assume that $\sigma_s$ is a positive constant, then we can represent the solution by (let $\sigma_t := \sigma_a + \sigma_s$)
 
@@ -173,7 +173,7 @@ Then we have the concluding theorem by noticing that $\|\mathcal{S}\|_{op} \le 1
 >[!important] Uniqueness Theorem
 >If $(1 + L\ell \overline{h}) (1 - e^{-\sigma_s \ell}) < 1$, then the cone-beam source permits a unique solution (if exists).
 
-## Notes
+## 📔Notes
 - This uniqueness result simply serves as an exercise utilizing the Grönwall's inequality. This result is only feasible for weak scattering medium. 
 - The commutativity is necessary to estimate the spectral radius, a slightly more general condition is mentioned in[^2].
 

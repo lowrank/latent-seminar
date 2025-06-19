@@ -9,6 +9,7 @@ comments: "true"
 >[!info] 
 >The Gaussian Correlation Inequality was proved in 2014 ([arXiv: 1408.1028](https://arxiv.org/pdf/1408.1028)). The interesting story can be found in [Quanta Magazine](https://www.quantamagazine.org/statistician-proves-gaussian-correlation-inequality-20170328). 
 
+## 🏷️ Introduction
 The inequality is to show the Gaussian measure $\mu$ on centrally symmetric convex sets $A$ and $B$ satisfies
 
 $$
@@ -38,7 +39,7 @@ The special case $k=1$ was proved by the following theorem [^2].
 >\mathbb{P}(\max_{1\le i\le n} |X_i| \le 1) \ge \mathbb{P}(|X_1|\le 1)\, \mathbb{P}(\max_{2\le i \le n} |X_i| \le 1).
 >$$ 
 
-### Multivariate Gamma-type distribution
+## 🌊Multivariate Gamma-type distribution
 The set $\{|X_i|\le 1\}$ is better described by chi-squared distribution or Gamma distribution. Surprisingly, the multivariate Gamma distributions on $\mathbb{R}^n$ have several (non-equivalent) definitions🤣. 
 
 The $\Gamma(\alpha, R)$ distribution is defined as follows.
@@ -70,7 +71,7 @@ Note, not all values of $\alpha$ suffice to produce an admissible distribution. 
 >$$
 > Therefore, all $2\alpha\in \mathbb{N}$ are admissible values.
 
-### Variational Technique
+## 🌵Variational Technique
 
 - In order to distinguish the dependence and independence, it is very common to introduce the correlation matrix for the $n$ dimensional vector $X$, that is, $C(\tau) = [C_{11}, \tau C_{12}; \tau C_{21} ,C_{22}]$ in the spirit of variational method, then the left-hand and right-hand sides of the desired inequality are referring the case $\tau = 1$ and $\tau = 0$. It equivalently means the function
 
@@ -112,7 +113,7 @@ which should be decreasing in $\tau$.
 
 In the original proof by Thomas Royen, the inequality is extended to the distributions such that the Laplace transform is infinitely divisible.
 
-## Notes
+## 📓Notes
 - 
 ## Links
 - https://arxiv.org/pdf/1408.1028
