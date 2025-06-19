@@ -138,8 +138,8 @@ Similar to the previous derivation, we let $f: = \langle u - w\rangle$, then int
 
 $$
 \begin{aligned}
-|f(x)| &\le C   \int_{V} \int_0^{\tau_{-}(x,v)} |f(x-tv)| dt dv + \frac{1}{\nu_{d-1}}\int_{D} \frac{e^{-\sigma_s|x-y|}}{|x - y|^{d-1}} \sigma_s  |f (y)| dy \\&\qquad+ \int_{\mathbb{S}^{d-1}} \int_0^{\tau_{-}(x, v)} \int_0^s e^{-s \sigma_s}|f(x - tv)| \sigma_s \langle u \rangle(x-sv) dt ds dv  \\
-&\le C   \int_{V} \int_0^{\tau_{-}(x,v)} |f(x-tv)| dt dv + \frac{1 + \ell \overline{h}}{\nu_{d-1}}\int_{D} \frac{e^{-\sigma_s|x-y|}}{|x - y|^{d-1}} \sigma_s  |f (y)| dy,
+|f(x)| &\le C   \int_{V} \int_0^{\tau_{-}(x,v)} |f(x-tv)| dt dv + \frac{1}{\nu_{d-1}}\int_{D} \frac{e^{-\sigma_s|x-y|}}{|x - y|^{d-1}} \sigma_s  |f (y)| dy \\&\qquad+ \int_{\mathbb{S}^{d-1}} \int_0^{\tau_{-}(x, v)} \int_0^s e^{-s \sigma_s}L|f(x - tv)| \sigma_s \langle u \rangle(x-sv) dt ds dv  \\
+&\le C   \int_{V} \int_0^{\tau_{-}(x,v)} |f(x-tv)| dt dv + \frac{1 + L\ell \overline{h}}{\nu_{d-1}}\int_{D} \frac{e^{-\sigma_s|x-y|}}{|x - y|^{d-1}} \sigma_s  |f (y)| dy,
 \end{aligned}
 $$
 
@@ -165,13 +165,13 @@ $$
 That implies the following relation.
 
 $$
-|f(x)| \le C \mathcal{A} |f| + \frac{(1 + \ell \overline{h})}{\nu_{d-1}} \sigma_s \mathcal{S} |f|.
+|f(x)| \le C \mathcal{A} |f| + \frac{(1 + L\ell \overline{h})}{\nu_{d-1}} \sigma_s \mathcal{S} |f|.
 $$
 
 Then we have the concluding theorem by noticing that $\|\mathcal{S}\|_{op} \le 1 - e^{-\sigma_s \ell}$ (why?).
 
->[!important]  Uniqueness Theorem
->If $(1 + \ell \overline{h}) (1 - e^{-\sigma_s \ell}) < 1$,  then the cone-beam source permits a unique solution (if exists).
+>[!important] Uniqueness Theorem
+>If $(1 + L\ell \overline{h}) (1 - e^{-\sigma_s \ell}) < 1$, then the cone-beam source permits a unique solution (if exists).
 
 ## Notes
 - This uniqueness result simply serves as an exercise utilizing the Grönwall's inequality. This result is only feasible for weak scattering medium. 
