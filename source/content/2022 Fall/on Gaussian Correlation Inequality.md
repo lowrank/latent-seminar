@@ -41,7 +41,7 @@ The special case $k=1$ was proved by the following theorem [^2].
 ### Multivariate Gamma-type distribution
 The set $\{|X_i|\le 1\}$ is better described by chi-squared distribution or Gamma distribution. Surprisingly, the multivariate Gamma distributions on $\mathbb{R}^n$ have several (non-equivalent) definitions🤣. 
 
-The $\Gamma(\alpha, R)$ distribution is defined as follows [^4]. 
+The $\Gamma(\alpha, R)$ distribution is defined as follows.
 
 >[!info] Definition
 >If the random vector $X = (X_1, \cdots, X_n)$ satisfies the Laplace transform
@@ -50,15 +50,27 @@ The $\Gamma(\alpha, R)$ distribution is defined as follows [^4].
 >$$
 >then it obeys the $\Gamma(\alpha, R)$ distribution.  
 
->[!check] Example 
+>[!example]  
 >If $\alpha=\frac{1}{2}$ and $X\sim \chi^2_n$ or $X\sim \Gamma(\alpha=\frac{n}{2}, \theta=2)$, then the covariance matrix $R = 2I_n$ and
 >$$
 >\mathbb{E}[\exp(-\langle s, X\rangle)] = \prod_{i=1}^n \mathbb{E}[\exp(-s_i X_i)] = \prod_{i=1}^n \int_0^{\infty} \frac{x^{-1/2} e^{-x/2}}{2^{1/2}\Gamma(\frac{1}{2})} e^{-s_i x} dx = \prod_{i=1}^n \frac{1}{\sqrt{2s_i + 1}}.
 >$$
 
+Note, not all values of $\alpha$ suffice to produce an admissible distribution. Some possible values of $\alpha$ are given in[^1].
 
+>[!example] 
+>Suppose $X_i\sim \mathcal{N}(\mathbf{0}_p, R)$, then the Wishart matrix $S = \sum_{i=1}^n X_i X_i^T \sim \mathcal{W}_p(n, R)$. The diagonal part of  $S$ is $X_i\odot X_i$ by Hadamard product. Then, the Laplace transform (or equivalently moment generating function) is  
+>$$
+>\begin{aligned}
+>\mathcal{L}(\operatorname{diag}(S)) &= \int dX_1 \cdots dX_n \;p(X_1, X_2, \cdots, X_n) e^{-s^T (\sum_{i=1}^n X_i\odot X_i)} \\&= \left[ \int dX \frac{1}{\sqrt{2\pi}} |R|^{-1/2} \exp\left(-\frac{1}{2} X^T R^{-1} X\right) \exp(-s^T (X\odot X))\right]^n \\
+>&= \left[\int dX \frac{1}{\sqrt{2\pi}} |R|^{-1/2} \exp\left(-\frac{1}{2} X^T (R^{-1} + 2\operatorname{diag}(s)) X\right) \right]^n\\
+>&= |R|^{-n/2} |( R^{-1} + 2\operatorname{diag}(s) )|^{-n/2}\\
+>&= |I + 2R \operatorname{diag}(s)|^{-n/2}.
+>\end{aligned}
+>$$
+> Therefore, all $2\alpha\in \mathbb{N}$ are admissible values.
 
-### Technique
+### Variational Technique
 
 - In order to distinguish the dependence and independence, it is very common to introduce the correlation matrix for the $n$ dimensional vector $X$, that is, $C(\tau) = [C_{11}, \tau C_{12}; \tau C_{21} ,C_{22}]$ in the spirit of variational method, then the left-hand and right-hand sides of the desired inequality are referring the case $\tau = 1$ and $\tau = 0$. It equivalently means the function
 
@@ -110,5 +122,3 @@ In the original proof by Thomas Royen, the inequality is extended to the distrib
 [^2]: Khatri, Chinubhai G. "On certain inequalities for normal distributions and their applications to simultaneous confidence bounds." _The Annals of Mathematical Statistics_ (1967): 1853-1867.
 
 [^3]: Krishnamoorthy, A. S., and M. Parthasarathy. "A multivariate gamma-type distribution." _The Annals of Mathematical Statistics_ 22.4 (1951): 549-557.
-
-[^4]: Note, not all values of $\alpha$ suffice to produce an admissible distribution. 
