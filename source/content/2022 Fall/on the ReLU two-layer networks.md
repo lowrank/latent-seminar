@@ -4,7 +4,7 @@ tags:
   - math-NA
   - math-CA
   - math-AP
-comments: "false"
+description: "false"
 ---
 ## Introduction
 
@@ -17,4 +17,4 @@ comments: "false"
 ## Notes
 - 
 ## Links
-- 
+- [[on eigenvalue estimate for random kernel matrix]]

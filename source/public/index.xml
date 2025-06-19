@@ -6,18 +6,6 @@
       <description>Last 10 notes on Latent Seminar</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>on models of chemotaxis</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-models-of-chemotaxis</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-models-of-chemotaxis</guid>
-    <description></description>
-    <pubDate>Thu, 19 Jun 2025 04:09:24 GMT</pubDate>
-  </item><item>
-    <title>on 1D Ising models</title>
-    <link>https://lowrank.github.io/latent-seminar/on-1D-Ising-models</link>
-    <guid>https://lowrank.github.io/latent-seminar/on-1D-Ising-models</guid>
-    <description>Notes Links .</description>
-    <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
-  </item><item>
     <title>on 1D Ising models</title>
     <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</link>
     <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</guid>
@@ -54,17 +42,29 @@
     <description>Notes Links .</description>
     <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>on &quot;sum of squares&quot;</title>
-    <link>https://lowrank.github.io/latent-seminar/on-%22sum-of-squares%22</link>
-    <guid>https://lowrank.github.io/latent-seminar/on-%22sum-of-squares%22</guid>
-    <description>Notes Links .</description>
-    <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+    <title>on eigenvalue estimate for random kernel matrix</title>
+    <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-random-kernel-matrix</link>
+    <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-random-kernel-matrix</guid>
+    <description>Notes Links on the ReLU two-layer networks .</description>
+    <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
   </item><item>
     <title>on &quot;sum of squares&quot;</title>
     <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</link>
     <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</guid>
     <description>Motivation Thoughts Notes Links .</description>
     <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>on the ReLU two-layer networks</title>
+    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</link>
+    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</guid>
+    <description>false.</description>
+    <pubDate>Mon, 31 Oct 2022 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>on epsilon extrapolation</title>
+    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-epsilon-extrapolation</link>
+    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-epsilon-extrapolation</guid>
+    <description>Overview Notes Links .</description>
+    <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

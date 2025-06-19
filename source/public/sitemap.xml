@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</loc>
+    <lastmod>2022-11-21T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://lowrank.github.io/latent-seminar/2022-Fall/on-Gaussian-Correlation-Inequality</loc>
     <lastmod>2022-09-26T00:00:00.000Z</lastmod>
   </url><url>
@@ -12,10 +15,16 @@
     <lastmod>2022-10-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://lowrank.github.io/latent-seminar/2022-Fall/on-models-of-chemotaxis</loc>
-    <lastmod>2025-06-19T04:09:24.649Z</lastmod>
+    <lastmod>2022-10-10T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</loc>
     <lastmod>2022-10-31T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</loc>
+    <lastmod>2025-06-19T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-random-kernel-matrix</loc>
+    <lastmod>2023-03-20T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://lowrank.github.io/latent-seminar/2025-Summer/on-Hardy-inequalities</loc>
     <lastmod>2025-05-19T00:00:00.000Z</lastmod>
@@ -31,16 +40,4 @@
   </url><url>
     <loc>https://lowrank.github.io/latent-seminar/</loc>
     <lastmod>2025-06-17T04:23:54.543Z</lastmod>
-  </url><url>
-    <loc>https://lowrank.github.io/latent-seminar/on-%22sum-of-squares%22</loc>
-    <lastmod>2022-11-21T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</loc>
-    <lastmod>2022-11-21T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://lowrank.github.io/latent-seminar/on-1D-Ising-models</loc>
-    <lastmod>2025-06-19T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</loc>
-    <lastmod>2025-06-19T00:00:00.000Z</lastmod>
   </url></urlset>

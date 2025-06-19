@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Lora",
-        body: "Gentium Book Plus",
+        body: "Gentium Plus",
         code: "Fira Mono",
       },
       colors: {
