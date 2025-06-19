@@ -65,6 +65,22 @@ jobs:
           npx quartz build
         working-directory: ./source
 
+      - name: Create tag json
+        run: |
+          npx tsx tags_generate.ts
+        working-directory: ./source
+
+      - name: Create tag mermaid
+        run: |
+          python3 tag_distribution.py
+        working-directory: ./source
+
+      - name: Build Quartz Again
+        run: |
+          npm install
+          npx quartz build
+        working-directory: ./source
+
       - name: Copy raw HTML folder
         run: |
           ls -la
