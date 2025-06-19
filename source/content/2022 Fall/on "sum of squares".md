@@ -1,10 +1,11 @@
 ---
-date: 2022-10-10
+date: 2022-11-21
 tags:
-  - math-AP
+  - math-NA
+  - math-RA
 comments: "false"
 ---
-## Introduction
+## Motivation
 
 ## Thoughts
 

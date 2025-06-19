@@ -1,12 +1,11 @@
 ---
-date: 2022-10-10
+date: 2025-06-19
 tags:
-  - math-AP
+  - math-CA
+  - math-MP
 comments: "false"
 ---
-## Introduction
 
-## Thoughts
 
 ## Notes
 - 

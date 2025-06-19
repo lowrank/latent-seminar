@@ -9,8 +9,20 @@
     <title>on models of chemotaxis</title>
     <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-models-of-chemotaxis</link>
     <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-models-of-chemotaxis</guid>
-    <description>Introduction Thoughts Notes Links .</description>
-    <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+    <description></description>
+    <pubDate>Thu, 19 Jun 2025 04:09:24 GMT</pubDate>
+  </item><item>
+    <title>on 1D Ising models</title>
+    <link>https://lowrank.github.io/latent-seminar/on-1D-Ising-models</link>
+    <guid>https://lowrank.github.io/latent-seminar/on-1D-Ising-models</guid>
+    <description>Notes Links .</description>
+    <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>on 1D Ising models</title>
+    <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</link>
+    <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</guid>
+    <description>Notes Links .</description>
+    <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Welcome to Latent Seminar</title>
     <link>https://lowrank.github.io/latent-seminar/</link>
@@ -42,29 +54,17 @@
     <description>Notes Links .</description>
     <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>on the ReLU two-layer networks</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</guid>
-    <description>Introduction Spectral perspective Training dynamics Further discussion Notes Links .</description>
-    <pubDate>Mon, 31 Oct 2022 00:00:00 GMT</pubDate>
+    <title>on &quot;sum of squares&quot;</title>
+    <link>https://lowrank.github.io/latent-seminar/on-%22sum-of-squares%22</link>
+    <guid>https://lowrank.github.io/latent-seminar/on-%22sum-of-squares%22</guid>
+    <description>Notes Links .</description>
+    <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
   </item><item>
-    <title>on epsilon extrapolation</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-epsilon-extrapolation</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-epsilon-extrapolation</guid>
-    <description>Overview Notes Links .</description>
-    <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>on Sinkhorn&#039;s Theorem</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-Sinkhorn's-Theorem</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-Sinkhorn's-Theorem</guid>
-    <description>Background Sinkhorn’s Theorem bridges the positive matrices (positive entries) with the doubly stochastic matrices by diagonal multipliers, i.e., there are diagonal matrices ...</description>
-    <pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>on Gaussian Correlation Inequality</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-Gaussian-Correlation-Inequality</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-Gaussian-Correlation-Inequality</guid>
-    <description> Info The Gaussian Correlation Inequality was proved in 2014 (arXiv: 1408.1028). The interesting story can be found in Quanta Magazine. The inequality is to show the Gaussian measure \mu on centrally symmetric convex sets A and B satisfies \mu(A\cap B)\ge \mu(A)\mu(B).</description>
-    <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+    <title>on &quot;sum of squares&quot;</title>
+    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</link>
+    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</guid>
+    <description>Motivation Thoughts Notes Links .</description>
+    <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

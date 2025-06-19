@@ -59,7 +59,7 @@ The $\Gamma(\alpha, R)$ distribution is defined as follows.
 Note, not all values of $\alpha$ suffice to produce an admissible distribution. Some possible values of $\alpha$ are given in[^1].
 
 >[!example] 
->Suppose $X_i\sim \mathcal{N}(\mathbf{0}_p, R)$, then the Wishart matrix $S = \sum_{i=1}^n X_i X_i^T \sim \mathcal{W}_p(n, R)$. The diagonal part of  $S$ is $X_i\odot X_i$ by Hadamard product. Then, the Laplace transform (or equivalently moment generating function) is  
+>Suppose $X_i\sim \mathcal{N}(\mathbf{0}_p, R)$, then the Wishart matrix $S = \sum_{i=1}^n X_i X_i^T \sim \mathcal{W}_p(n, R)$. The diagonal part of  $S$ is $\sum_{i=1}^n X_i\odot X_i$ by Hadamard product. Then, the Laplace transform (or equivalently moment generating function) is  
 >$$
 >\begin{aligned}
 >\mathcal{L}(\operatorname{diag}(S)) &= \int dX_1 \cdots dX_n \;p(X_1, X_2, \cdots, X_n) e^{-s^T (\sum_{i=1}^n X_i\odot X_i)} \\&= \left[ \int dX \frac{1}{\sqrt{2\pi}} |R|^{-1/2} \exp\left(-\frac{1}{2} X^T R^{-1} X\right) \exp(-s^T (X\odot X))\right]^n \\
