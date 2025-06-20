@@ -6,6 +6,12 @@
       <description>Last 10 notes on Latent Seminar</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>on subspace spanned by trajectory</title>
+    <link>https://lowrank.github.io/latent-seminar/2025-Summer/on-subspace-spanned-by-trajectory</link>
+    <guid>https://lowrank.github.io/latent-seminar/2025-Summer/on-subspace-spanned-by-trajectory</guid>
+    <description>Notes Links .</description>
+    <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>on 1D Ising models</title>
     <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</link>
     <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</guid>
@@ -15,7 +21,7 @@
     <title>Welcome to Latent Seminar</title>
     <link>https://lowrank.github.io/latent-seminar/</link>
     <guid>https://lowrank.github.io/latent-seminar/</guid>
-    <description> Note This seminar series is purely for personal interests. 📊 Tag Distribution --- config: theme: &quot;base&quot; themeVariables: primaryColor: &#039;#81c8be&#039; secondaryColor: &#039;#e5c890&#039; tertiaryColor: &#039;#8caaee&#039; --- pie title &quot;math-PR&quot; : 1 &quot;math-CA&quot; : 3 &quot;math-CO&quot; : 1 &quot;math-NA&quot; : 4 &quot;math-AP&quot; : 6 &quot;math-MP&quot; : 1 &quot;cs-LG&quot; : 1 .</description>
+    <description>...</description>
     <pubDate>Tue, 17 Jun 2025 04:23:54 GMT</pubDate>
   </item><item>
     <title>on Weyl’s asymptotic law</title>
@@ -42,10 +48,10 @@
     <description>Notes Links .</description>
     <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>on eigenvalue estimate for random kernel matrix</title>
-    <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-random-kernel-matrix</link>
-    <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-random-kernel-matrix</guid>
-    <description>Notes Links on the ReLU two-layer networks .</description>
+    <title>on eigenvalue estimate for sample matrix</title>
+    <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-sample-matrix</link>
+    <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-sample-matrix</guid>
+    <description>Introduction Given a positive definite kernel function \mathcal{G}(x, y), it is natural to sample some points (x_i, x_j) (so it creates a matrix G) as an approximation to the kernel ...</description>
     <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
   </item><item>
     <title>on &quot;sum of squares&quot;</title>
@@ -54,17 +60,11 @@
     <description>Motivation Thoughts Notes Links .</description>
     <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
   </item><item>
-    <title>on the ReLU two-layer networks</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-the-ReLU-two-layer-networks</guid>
+    <title>on two-layer ReLU networks</title>
+    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</link>
+    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</guid>
     <description>false.</description>
     <pubDate>Mon, 31 Oct 2022 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>on epsilon extrapolation</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-epsilon-extrapolation</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-epsilon-extrapolation</guid>
-    <description>Overview Notes Links .</description>
-    <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

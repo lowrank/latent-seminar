@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c439f026571e6ec9",
+        "id": "0dd6b76bd1be7a3a",
         "type": "tabs",
         "children": [
           {
-            "id": "190da95c89142a05",
+            "id": "9bd5d94e113d0d91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022 Fall/on Gaussian Correlation Inequality.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "on Gaussian Correlation Inequality"
-            }
-          },
-          {
-            "id": "cb83ded85f356ca0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2022 Fall/on the ReLU two-layer networks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "on the ReLU two-layer networks"
-            }
-          },
-          {
-            "id": "f76ffa4d5916dbac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2022 Fall/on Gaussian Correlation Inequality.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "on Gaussian Correlation Inequality"
+              "title": "index"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,18 +171,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f76ffa4d5916dbac",
+  "active": "9bd5d94e113d0d91",
   "lastOpenFiles": [
-    "2022 Fall/on an application of Grönwall's inequality.md",
-    "2022 Fall/on the ReLU two-layer networks.md",
-    "2023 Spring/on eigenvalue estimate for random kernel matrix.md",
+    "2022 Fall/on two-layer ReLU networks.md",
+    "2023 Spring/on eigenvalue estimate for sample matrix.md",
+    "2025 Summer/on subspace spanned by trajectory.md",
+    "2022 Fall/on Gaussian Correlation Inequality.md",
+    "2022 Fall/on Grönwall's inequality.md",
+    "2022 Fall/on \"sum of squares\".md",
+    "index.md",
     "2023 Spring/on 1D Ising models.md",
     "2022 Fall/on models of chemotaxis.md",
-    "2022 Fall/on \"sum of squares\".md",
-    "2022 Fall/on Gaussian Correlation Inequality.md",
     "2022 Fall/on epsilon extrapolation.md",
     "2022 Fall/on Sinkhorn's Theorem.md",
-    "index.md",
     "2025 Summer/on diffusion models.md",
     "2025 Summer/on interpolation theorems.md",
     "2025 Summer/on Hardy inequalities.md",

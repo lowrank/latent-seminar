@@ -12,6 +12,28 @@ interface TagContentOptions {
   numPages: number
 }
 
+/* Add a CSS class for tag alignment */
+const tagContentStyle = `
+.tag-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.tag-list-item {
+  flex: 1 1 300px;
+  min-width: 250px;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+`
+// Inject the style into the document (for client-side preview)
+if (typeof document !== "undefined") {
+  const styleTag = document.createElement("style")
+  styleTag.innerHTML = tagContentStyle
+  document.head.appendChild(styleTag)
+}
+
 const defaultOptions: TagContentOptions = {
   numPages: 10,
 }
