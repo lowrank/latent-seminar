@@ -4,7 +4,7 @@ tags:
   - math-NA
   - math-CA
   - math-AP
-description: "false"
+comments: "false"
 ---
 >[!info] 
 >This note is not intended to be a literature review of any kind nor an original research piece, it is just for fun.
@@ -74,7 +74,7 @@ $$
 \frac{d\mathcal{R}^{\ast}h}{dt} = -(-\Delta)^{-\frac{n+3}{2}} \mathcal{R}^{\ast} h, 
 $$
 
-At a first sight, we find this evolution equation will be sustaining the initial “noises” for a long time. It also infers that a highly sophisticated initialization (that contains high frequencies) could be toxic to the training process if those are not desired.
+At a first sight, we find this evolution equation will be sustaining the initial “noises” for a long time. It also infers that a highly sophisticated initialization (that contains high frequencies) could be toxic to the training process if those are not desired. Interestingly, a similar formulation is also seen in [[on subspace spanned by trajectory]], but from a different perspective.
 
 ### 🧩Random Feature (**RF**)
 The RF configuration can be viewed as a discrete version of NTK, but the width of network does not have to be wide. The discrepancy between the eigenvalues in continuous and discrete cases can be studied through trivial tools like Weyl's inequality or slightly more complex ways. It is not the focus of this post, we will leave this topic to a later post, see [[on eigenvalue estimate for sample matrix]].
@@ -118,4 +118,5 @@ Then, taking account of the ReLU function, it is quite easy to derive:
 - 
 ## Links
 - [[on eigenvalue estimate for sample matrix]]
+- [[on subspace spanned by trajectory]]
 - https://arxiv.org/pdf/2306.17301

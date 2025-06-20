@@ -12,6 +12,12 @@
     <description>Notes Links .</description>
     <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
   </item><item>
+    <title>on two-layer ReLU networks</title>
+    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</link>
+    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</guid>
+    <description></description>
+    <pubDate>Thu, 19 Jun 2025 04:04:17 GMT</pubDate>
+  </item><item>
     <title>on 1D Ising models</title>
     <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</link>
     <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-1D-Ising-models</guid>
@@ -59,12 +65,6 @@
     <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</guid>
     <description>Motivation Thoughts Notes Links .</description>
     <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>on two-layer ReLU networks</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</guid>
-    <description>false.</description>
-    <pubDate>Mon, 31 Oct 2022 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
