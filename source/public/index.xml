@@ -12,6 +12,12 @@
     <description>Notes Links .</description>
     <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Untitled</title>
+    <link>https://lowrank.github.io/latent-seminar/2023-Summer/Untitled</link>
+    <guid>https://lowrank.github.io/latent-seminar/2023-Summer/Untitled</guid>
+    <description></description>
+    <pubDate>Sat, 21 Jun 2025 00:58:33 GMT</pubDate>
+  </item><item>
     <title>on two-layer ReLU networks</title>
     <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</link>
     <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-two-layer-ReLU-networks</guid>
@@ -54,17 +60,11 @@
     <description>Notes Links .</description>
     <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>on eigenvalue estimate for sample matrix</title>
-    <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-sample-matrix</link>
-    <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-sample-matrix</guid>
-    <description>Introduction Given a positive definite kernel function \mathcal{G}(x, y), it is natural to sample some points (x_i, x_j) (so it creates a matrix G) as an approximation to the kernel ...</description>
-    <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>on &quot;sum of squares&quot;</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</guid>
-    <description>Motivation Thoughts Notes Links .</description>
-    <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+    <title>on graph Laplacian&#039;s equivalence to manifold&#039;s Laplacian</title>
+    <link>https://lowrank.github.io/latent-seminar/2023-Summer/on-graph-Laplacian's-equivalence-to-manifold's-Laplacian</link>
+    <guid>https://lowrank.github.io/latent-seminar/2023-Summer/on-graph-Laplacian's-equivalence-to-manifold's-Laplacian</guid>
+    <description>🏷️Introduction Let \Gamma\subset \mathbb{R}^3 be a smooth, closed, oriented surface. And \Delta_{\Gamma} is the Laplace-Beltrami operator on \Gamma and \nabla_{\Gamma} be the gradient operator.</description>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
