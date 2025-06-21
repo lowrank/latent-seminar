@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0dd6b76bd1be7a3a",
+        "id": "a620e79066cad6ea",
         "type": "tabs",
         "children": [
           {
-            "id": "9bd5d94e113d0d91",
+            "id": "58175e64f8a17f5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "2022 Fall/on Gaussian Correlation Inequality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "on Gaussian Correlation Inequality"
             }
           }
         ]
@@ -171,14 +171,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bd5d94e113d0d91",
+  "active": "58175e64f8a17f5d",
   "lastOpenFiles": [
+    "2023 Spring/on eigenvalue estimate for sample matrix.md",
+    "index.md",
     "2022 Fall/on two-layer ReLU networks.md",
     "2025 Summer/on diffusion models.md",
     "2022 Fall/on Sinkhorn's Theorem.md",
-    "2023 Spring/on eigenvalue estimate for sample matrix.md",
     "2025 Summer/on subspace spanned by trajectory.md",
-    "index.md",
     "2022 Fall/on Gaussian Correlation Inequality.md",
     "2022 Fall/on Grönwall's inequality.md",
     "2022 Fall/on \"sum of squares\".md",

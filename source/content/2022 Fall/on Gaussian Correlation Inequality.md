@@ -57,7 +57,7 @@ The $\Gamma(\alpha, R)$ distribution is defined as follows.
 >\mathbb{E}[\exp(-\langle s, X\rangle)] = \prod_{i=1}^n \mathbb{E}[\exp(-s_i X_i)] = \prod_{i=1}^n \int_0^{\infty} \frac{x^{-1/2} e^{-x/2}}{2^{1/2}\Gamma(\frac{1}{2})} e^{-s_i x} dx = \prod_{i=1}^n \frac{1}{\sqrt{2s_i + 1}}.
 >$$
 
-Note, not all values of $\alpha$ suffice to produce an admissible distribution. Some possible values of $\alpha$ are given in[^1].
+Note, not all values of $\alpha$ suffice to produce an admissible distribution. Some possible values of $\alpha$ are given in[^3].
 
 >[!example] 
 >Suppose $X_i\sim \mathcal{N}(\mathbf{0}_p, R)$, then the Wishart matrix $S = \sum_{i=1}^n X_i X_i^T \sim \mathcal{W}_p(n, R)$. The diagonal part of  $S$ is $\sum_{i=1}^n X_i\odot X_i$ by Hadamard product. Then, the Laplace transform (or equivalently moment generating function) is  
@@ -113,13 +113,15 @@ which should be decreasing in $\tau$.
 
 In the original proof by Thomas Royen, the inequality is extended to the distributions such that the Laplace transform is infinitely divisible.
 
-## 📓Notes
-- 
-## Links
-- https://arxiv.org/pdf/1408.1028
+## 💬Further discussions
+- If the convex sets are not quite symmetric (say up to some local perturbations), does the inequality still hold for Gaussian measure? Such question is raised naturally, some existing works[^4] [^5] might be a starting point. 
 
 [^1]: Schechtman, Gideon, Th Schlumprecht, and Joel Zinn. "On the Gaussian measure of the intersection." _Annals of probability_ (1998): 346-357.
 
 [^2]: Khatri, Chinubhai G. "On certain inequalities for normal distributions and their applications to simultaneous confidence bounds." _The Annals of Mathematical Statistics_ (1967): 1853-1867.
 
 [^3]: Krishnamoorthy, A. S., and M. Parthasarathy. "A multivariate gamma-type distribution." _The Annals of Mathematical Statistics_ 22.4 (1951): 549-557.
+
+[^4]: Cordero-Erausquin, Dario. "Some applications of mass transport to Gaussian-type inequalities." _Archive for rational mechanics and analysis_ 161 (2002): 257-269.
+
+[^5]: https://arxiv.org/pdf/1011.4166 
