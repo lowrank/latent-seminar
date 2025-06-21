@@ -49,10 +49,10 @@ The first part should be less affected by the sampling, thus we should expect th
 $$
 \frac{1}{m}\sum_{i=1}^m \psi_{k}(x_i) \phi_r (x_i)\approx \delta_{k, r}
 $$
-The common tool we use is Ostrowski's theorem[^2].
+The common tool we use is Ostrowski's theorem [^1].
 
 >[!important] Ostrowski theorem
->If $A\in \mathbb{C}^{n\times n}$ and $X\in\mathbb{C}^{n\times n}$, then 
+>If $A\in \mathbb{C}^{n\times n}$ is Hermitian and $X\in\mathbb{C}^{n\times n}$, then 
 >$$
 >\mu_i(X^{\ast}A X) = \theta_i \mu_i(A), i\in [n].
 >$$
@@ -72,17 +72,31 @@ $$
 &\le \mu_i(\mathcal{G}) \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} + \frac{1}{m}\|G - \Phi_l\Lambda_l \Phi_l^{\ast}\|_{op}.
 \end{aligned}
 $$
-- The remainder term $G - \Phi_l\Lambda_l \Phi_l^{\ast} = \sum_{k > l} \mu_k \psi_k(x_i)\psi_k(x_j)$, a naive bound of the 2nd term will be $C \sum_{k > l} \mu_k$ if the eigenfunctions are uniformly bounded, otherwise the growth needs to be considered. 
+- The remainder term $G - \Phi_l\Lambda_l \Phi_l^{\ast} = \sum_{k > l} \mu_k \psi_k(x_i)\psi_k(x_j)$, a naive bound of the 2nd term will be $C \sum_{k > l} \mu_k$ if the eigenfunctions are uniformly bounded, otherwise the growth needs to be considered.  Of course, this bound is quite conservative since the $\{ \psi_k(x_i) \}_{i=1}^m$ can be viewed as some random vector for large $k$, then the central limit theorem can create a more aggressive estimate.
 - The first term can be quantified by viewing $x_i$ as a certain quadrature rule, or ready for Hoeffding's inequality. We should expect the stochastic bound $O(m^{-1/2}\sqrt{\log l^2/p})$ for each entry with probability $1 - \frac{p}{l^2}$, therefore, with probability $1 - p$,
   $$
-   \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} = O\left(\sqrt{m \log l^2/p}\right).
+   \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} = O\left(m^{-1/2}l\sqrt{ \log l^2/p}\right).
    $$
+The final bound will be a compromise between these two terms. 
+
+$$
+|\mu_i(\mathcal{G}) - \frac{1}{m}\mu_i(G)| \le \mu_i(\mathcal{G}) O(m^{-1/2}l\sqrt{ \log l^2/p}) + \frac{C}{m} \sum_{k >l} \mu_k(\mathcal{G}).
+$$
+
+For instance, if $\mu_k(\mathcal{G}) = O(k^{-\beta})$ that $\beta > 1$, then we should truncate at $i^{-\beta}{m}^{-1/2} l\approx l^{-\beta + 1}$, that is, $l\approx m^{1/2\beta} i$ if it is not exceeding $m$. The condition number of the sample matrix can be estimated from below. 
+
+$$
+\kappa = \frac{\mu_1(G)}{\mu_m(G)} = \Omega_p(m^{\beta - 1}).
+$$
+
+ Since $\mu_1(G) = \Theta(m)$, and $\mu_m(G)= O(m^{-\beta + 1})$ in high probability sense.
+
+>[!example]
+> Consider the two-layer ReLU network's NTK regime (considered in [[on two-layer ReLU networks]]), the kernel permits a decay rate $\mu_k\sim O(k^{-(n+3)/n})$, then we can expect the condition number is bounded below by $O(m^{3/n})$ for a total number of $m$ samples.
 
 Another approach for well-structured points $x_i$ is using the min-max principle for eigenvalues, which usually involves an explicit construction of subspace, see also [[on convergence of graph Laplacian]].
 ## Links
 - [[on two-layer ReLU networks]]
 - [[on convergence of graph Laplacian]]
 
-[^1]: Widom, Harold. "On the eigenvalues of certain Hermitian operators." _Transactions of the American Mathematical Society_ 88.2 (1958): 491-522.
-
-[^2]: https://en.wikipedia.org/wiki/Ostrowski%27s_theorem
+[^1]: Horn, Roger A., and Charles R. Johnson. _Matrix analysis_. Cambridge university press, 2012.
