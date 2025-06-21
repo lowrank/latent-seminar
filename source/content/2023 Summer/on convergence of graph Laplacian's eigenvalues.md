@@ -10,6 +10,9 @@ comments: "false"
 >This post is more like an exercise for personal interest. It does not necessarily contain anything new. 
 
 ## 🏷️Introduction
+Let us imagine that a closed smooth manifold is constructed in minecraft 😅, we can expect some detailed information is likely to lose. It is natural to ask: 
+
+> How much geometric information is still kept?
 
 Let $\Gamma\subset \mathbb{R}^3$ be a smooth, closed, oriented surface. And $\Delta_{\Gamma}$ is the Laplace-Beltrami operator on $\Gamma$ and $\nabla_{\Gamma}$ be the gradient operator. We denote $\{\phi_k\}_{k\ge 0}$ as the eigenfunctions of $-\Delta_{\Gamma}$ with corresponding eigenvalues $\{\lambda_k\}_{k\ge 0}$. The first trivial eigenvalue $\lambda_0 = 0$. 
 
