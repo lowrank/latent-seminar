@@ -41,23 +41,25 @@ Then we prove the following lemma, which shows the eigenvalues of the Laplacian 
 >Then there exists a constant $C > 0$ independent of $r$ that $|\lambda_k - \mu_k| \le Cr\lambda_k$.
 
 >[!note] Proof
->Using the min-max principle, 
+>The main tool is the min-max principle, 
 >$$
 >\mu_k = \min_{\dim U = k+1}\max_{f\in U - \{0\}} \frac{\int_{D_r} |\nabla f(x)|^2 dx }{\int_{D_r} |f(x)|^2 dx}.
 >$$
 >We first provide a lower bound for $\mu_k$.  Our estimate consists of three steps.
->- Explicit construction of the subspace $U$. We define the functions $\{h_m\}_{m=0}^k$ by 
+>
+>**Step 1**: Explicit construction of the subspace $U$.  We define the functions $\{h_m\}_{m=0}^k$ by 
 >$$
 >h_m(x) = \phi_m(P_{\Gamma} x).
 >$$
 >and denote $U = \operatorname{span}(h_0,\cdots, h_k)$.
-> - Estimate of norms. Let $f\in U$, and we apply the co-area formula
+>
+> **Step 2**: Estimate of norms.  Let $f\in U$, and we apply the co-area formula
 > $$
 > \begin{aligned}
 > \int_{D_r} |f(x)|^2 dx &= \int_{-r}^r \int_{d_{\Gamma}(x) = t}|f(x)|^2 dS d t \\
 > &= \int_{-r}^r \int_{d_{\Gamma}(x) = t}|f(P_{\Gamma} x)|^2 dS d t
 > \end{aligned}
->  $$
+>$$
 
 
 
