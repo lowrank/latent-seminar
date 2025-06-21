@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023 Summer/on graph Laplacian's convergence to manifold's Laplacian.md",
+                "file": "2023 Summer/on convergence of graph Laplacian's eigenvalues.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "on graph Laplacian's convergence to manifold's Laplacian"
+              "title": "on convergence of graph Laplacian's eigenvalues"
             }
           }
         ]
@@ -174,7 +174,7 @@
   "active": "58175e64f8a17f5d",
   "lastOpenFiles": [
     "2022 Fall/on Gaussian Correlation Inequality.md",
-    "2023 Summer/on graph Laplacian's convergence to manifold's Laplacian.md",
+    "2023 Summer/on convergence of graph Laplacian's eigenvalues.md",
     "2023 Spring/on eigenvalue estimate for sample matrix.md",
     "index.md",
     "2022 Fall/on two-layer ReLU networks.md",
