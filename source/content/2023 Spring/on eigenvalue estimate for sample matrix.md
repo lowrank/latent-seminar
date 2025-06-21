@@ -78,10 +78,10 @@ $$
    \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} = O\left(\sqrt{m \log l^2/p}\right).
    $$
 
-Another approach for well-structured points $x_i$ is using the min-max principle for eigenvalues, which usually involves an explicit construction of subspace, see also [[on convergence of graph Laplacian's eigenvalues]].
+Another approach for well-structured points $x_i$ is using the min-max principle for eigenvalues, which usually involves an explicit construction of subspace, see also [[on convergence of graph Laplacian]].
 ## Links
 - [[on two-layer ReLU networks]]
-- [[on convergence of graph Laplacian's eigenvalues]]
+- [[on convergence of graph Laplacian]]
 
 [^1]: Widom, Harold. "On the eigenvalues of certain Hermitian operators." _Transactions of the American Mathematical Society_ 88.2 (1958): 491-522.
 

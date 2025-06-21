@@ -54,17 +54,17 @@
     <description> Info This post is more like an exercise for personal interest. It does not necessarily contain anything new. 🏷️Introduction Let us imagine that a closed smooth manifold is constructed in minecraft 😅, we can expect some detailed information is likely to lose.</description>
     <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
   </item><item>
+    <title>on convergence of graph Laplacian</title>
+    <link>https://lowrank.github.io/latent-seminar/2023-Summer/on-convergence-of-graph-Laplacian</link>
+    <guid>https://lowrank.github.io/latent-seminar/2023-Summer/on-convergence-of-graph-Laplacian</guid>
+    <description> Info This post is more like an exercise for personal interest. It does not necessarily contain anything new. 🏷️Introduction Let us imagine that a closed smooth manifold is constructed in minecraft 😅, we can expect some detailed information is likely to lose.</description>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
+  </item><item>
     <title>on eigenvalue estimate for sample matrix</title>
     <link>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-sample-matrix</link>
     <guid>https://lowrank.github.io/latent-seminar/2023-Spring/on-eigenvalue-estimate-for-sample-matrix</guid>
     <description>Introduction Given a positive definite kernel function \mathcal{G}(x, y), it is natural to sample some points (x_i, x_j) (so it creates a matrix G) as an approximation to the kernel ...</description>
     <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>on &quot;sum of squares&quot;</title>
-    <link>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</link>
-    <guid>https://lowrank.github.io/latent-seminar/2022-Fall/on-%22sum-of-squares%22</guid>
-    <description>Motivation Thoughts Notes Links .</description>
-    <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
