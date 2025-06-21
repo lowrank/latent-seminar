@@ -87,6 +87,61 @@ Then we prove the following lemma, which shows the eigenvalues of the Laplacian 
 >\end{aligned}
 >$$
 >Next, we provide an upper bound estimate using the max-min counterpart.
+>$$
+>\mu_k = \max_{\dim U = k} \min_{f \in U^{\perp} - \{0\}}   \frac{\int_{D_r} |\nabla f(x)|^2 dx }{\int_{D_r} |f(x)|^2 dx}.
+>$$
+>
+>**Step 4**: Explicit construction of $U$.  We define the functions $\{w_m\}_{m=0}^{k-1}$ by 
+>$$
+>w_m(x) = \sqrt{\mathcal{J}(x)} \phi_m(P_{\Gamma}x) ,\quad {\mathcal{J}}(x):=\frac{J(x)+J(2P_{\Gamma} x - x)}{2}.
+>$$
+>where $2P_{\Gamma} x - x$ is the mirror point of $x$ across $\Gamma$. Then for $\forall i\neq j$, using the symmetry of the domain along normal direction,
+>$$
+>\begin{aligned}
+>\int_{D_r} w_i(x) w_j(x) dx &= \int_{-r}^r \int_{d_{\Gamma}(x) = t} w_i(x) w_j(x) dS d t   \\
+>&= \int_{-r}^r \int_{d_{\Gamma}(x) = t} \phi_i(P_{\Gamma} x) \phi_j(P_{\Gamma} x) \mathcal{J}(x) dS d t \\
+>&= \int_{-r}^r \int_{d_{\Gamma}(x) = t} \phi_i(P_{\Gamma} x) \phi_j(P_{\Gamma} x) J(x) dS d t\\
+>&= 2r \int_{\Gamma} \phi_i(P_{\Gamma} x) \phi_j(P_{\Gamma} x) dS = 0.
+>\end{aligned}
+>$$
+>which implies $\{w_m\}_{m=0}^{k-1}$ forms an orthogonal set and let $U = \text{span}(w_0,\cdots, w_{k-1})$.
+>
+>**Step 5**: Norm estimates are similar to the previous case. For $f\in U$, we can write $f(x) = \sqrt{\mathcal{J}(x)} \tilde{f}(x)$ that $\tilde{f}\in \text{span}(h_0, \cdots, h_m)$ and
+>$$
+>\int_{d_{\Gamma}(x) = t} |f(x)|^2 dS = \int_{\Gamma} |\tilde{f}(x)|^2 dS.
+>$$
+ >which implies 
+ >$$
+>\int_{D_r} |f(x)|^2 dx = 2r  \int_{\Gamma} |\tilde f(x)|^2 dS.
+>$$
+>In a similar spirit, we have 
+>$$
+>\begin{aligned}
+>\int_{D_r} |\nabla f|^2 dx &= \int_{-r}^r \int_{d_{\Gamma}(x) = t}|\nabla f(x)|^2 dS d t \\
+>&= \int_{-r}^r \int_{d_{\Gamma}(x) = t}\left|\sqrt{\mathcal{J}(x)}\nabla \tilde{f}(P_{\Gamma} x) + \tilde{f}(x) \nabla \sqrt{\mathcal{J}(x)} \right|^2 dS d t.
+>\end{aligned}
+>$$
+>By cancellation, $\mathcal{J}(x) = 1 + O(r^2)$, which implies that $\sqrt{\mathcal{J}(x)} = 1 + O(r^2)$ and $|\nabla \sqrt{\mathcal{J}(x)}| = O(r)$ as well. Therefore,
+>$$
+> \int_{D_r} |\nabla f|^2 dx =  2r\left( (1+O(r))\int_{\Gamma} |\nabla_{\Gamma} f|^2 dS + O(r) \int_{\Gamma} |f|^2 dS\right).
+>$$
+>
+>Step 6: We will now use the max-min principle 
+>$$
+>\begin{aligned}
+>\mu_k &\ge \min_{f\in U^{\perp}-\{0\}} \frac{(1+O(r))\int_{\Gamma} |\nabla_{\Gamma} f(x)|^2 dS + O(r) \int_{\Gamma} |f(x)|^2 dS }{\int_{\Gamma} |f(x)|^2 dS}
+>\end{aligned}
+>$$
+>For $k\ge 1$, since $\phi_0$ is a constant function, we have $\int_{\Gamma} f(x) dS = 0$, then by the Poincaré inequality, there exists a constant $C ' > 0$ that 
+>$$
+>\int_{\Gamma} |\nabla_{\Gamma} f|^2 dS \ge C' \int_{\Gamma} |f|^2 dS.
+>$$
+>Thus we have 
+>$$
+>\begin{aligned}
+>\mu_k &\ge \min_{f\in U^{\perp} - \{0\}} \frac{(1+O(r))\int_{\Gamma} |\nabla_{\Gamma} f(x)|^2 dS + O(r) \int_{\Gamma} |\nabla_{\Gamma} f|^2 dS }{\int_{\Gamma} |f(x)|^2 dS} \\&= (1 + O(r)) \lambda_k.
+>\end{aligned}
+>$$
 
 
 ## Notes
