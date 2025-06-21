@@ -126,7 +126,7 @@ Then we prove the following lemma, which shows the eigenvalues of the Laplacian 
 > \int_{D_r} |\nabla f|^2 dx =  2r\left( (1+O(r))\int_{\Gamma} |\nabla_{\Gamma} f|^2 dS + O(r) \int_{\Gamma} |f|^2 dS\right).
 >$$
 >
->Step 6: We will now use the max-min principle 
+>**Step 6**: We will now use the max-min principle 
 >$$
 >\begin{aligned}
 >\mu_k &\ge \min_{f\in U^{\perp}-\{0\}} \frac{(1+O(r))\int_{\Gamma} |\nabla_{\Gamma} f(x)|^2 dS + O(r) \int_{\Gamma} |f(x)|^2 dS }{\int_{\Gamma} |f(x)|^2 dS}
