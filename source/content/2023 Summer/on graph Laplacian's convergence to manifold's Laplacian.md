@@ -3,6 +3,7 @@ date: 2023-06-05
 tags:
   - math-NA
   - math-CA
+  - math-AP
 comments: "false"
 ---
 >[!info] 
