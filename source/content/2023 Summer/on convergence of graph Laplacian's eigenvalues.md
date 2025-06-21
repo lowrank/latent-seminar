@@ -40,7 +40,7 @@ Then we prove the following lemma, which shows the eigenvalues of the Laplacian 
 >$$
 >Then there exists a constant $C > 0$ independent of $r$ that $|\lambda_k - \mu_k| \le Cr\lambda_k$.
 
->[!note] Proof
+>[!note]- Proof
 >The main tool is the min-max principle, 
 >$$
 >\mu_k = \min_{\dim U = k+1}\max_{f\in U - \{0\}} \frac{\int_{D_r} |\nabla f(x)|^2 dx }{\int_{D_r} |f(x)|^2 dx}.
@@ -60,7 +60,33 @@ Then we prove the following lemma, which shows the eigenvalues of the Laplacian 
 > &= \int_{-r}^r \int_{d_{\Gamma}(x) = t}|f(P_{\Gamma} x)|^2 dS d t
 > \end{aligned}
 >$$
-
+>Let $J(x)$ be the Jacobian between the surfaces $\{d_{\Gamma} = t\}$ and $\Gamma$, then 
+>$$
+>\int_{d_{\Gamma}(x) = t}|f(P_{\Gamma} x)|^2 J(x) dS = \int_{\Gamma} |f(x)|^2 dS
+>$$
+>where $J(x) = 1 - d_{\Gamma}(x) \Delta d_{\Gamma}(x) + |d_{\Gamma}(x)|^2 \langle{\nabla d_{\Gamma}, \nabla^2 d_{\Gamma} \nabla d_{\Gamma}}\rangle$.
+>
+>Therefore,  $J(x) = 1 + O(r)$, we have the following estimate
+>$$
+>\int_{D_r} |f(x)|^2 dx = 2r \left(1 + O(r)\right)  \int_{\Gamma} |f(x)|^2 dS.
+>$$
+>We then estimate
+>$$
+>\begin{aligned}
+>\int_{D_r} |\nabla f|^2 dx &= \int_{-r}^r \int_{d_{\Gamma}(x) = t}|\nabla f(x)|^2 dS d t \\
+>&= \int_{-r}^r \int_{d_{\Gamma}(x) = t}|\nabla f(P_{\Gamma} x)|^2 dS d t = 2r(1 + O(r)) \int_{\Gamma} |\nabla f(x)|^2 dS \\
+>&= 2r(1 + O(r)) \int_{\Gamma} |\nabla_{\Gamma} f(x)|^2 dS.
+>\end{aligned}
+>$$
+>
+>**Step 3**: Apply the min-max principle. 
+>$$
+>\begin{aligned}
+>\mu_k &\le (1 + O(r)) \max_{f\in U -\{0\}} \frac{\int_{\Gamma} |\nabla_{\Gamma} f(x)|^2 dS }{\int_{\Gamma} |f(x)|^2 dS} \\
+>&= (1 + O(r)) \lambda_k.
+>\end{aligned}
+>$$
+>Next, we provide an upper bound estimate using the max-min counterpart.
 
 
 ## Notes

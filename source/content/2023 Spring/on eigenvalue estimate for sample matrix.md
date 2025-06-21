@@ -11,7 +11,7 @@ Given a positive definite kernel function $\mathcal{G}(x, y)$, it is natural to 
 
 The simplest idea to quantify the difference is probably **Weyl's inequality** for self-adjoint compact operators.  
 
->[!note] Estimate by Weyl's inequality 
+>[!important] Estimate by Weyl's inequality 
 >Let $\Omega=[0, 1]^n$ be a unit cube and $\mathcal{G}(x, y)\in C^1(\Omega\times \Omega)$ is a positive definite kernel. The matrix $G\in \mathbb{R}^{m\times m}$ has entries as $\mathcal{G}(x_i, x_j)$ for $\{x_i\}_{i=1}^m$ be the regular "lattice points" with $\sqrt[n]{m}$ points along each axis. Then 
 >$$
 >|\mu_i(\mathcal{G}) - \frac{1}{m}\mu_i(G)| = O\left(\frac{1}{\sqrt[n]{m}}\right)
@@ -19,7 +19,7 @@ The simplest idea to quantify the difference is probably **Weyl's inequality** f
 >where $\mu_i$ denotes the $i$th eigenvalue in descending order.
 >
 
->[!summary] Proof: 
+>[!note]- Proof
 > The lattice points automatically generate a partition of $\Omega$, we denote $C(x_i)$ as the small cube centered at $x_i$ which is disjoint from other small cubes. 
 > 
 > The matrix $G$ constructs an approximated kernel function on each small cube around the lattice points. We define $\mathcal{G}^{\ast}(x, y)$ as
