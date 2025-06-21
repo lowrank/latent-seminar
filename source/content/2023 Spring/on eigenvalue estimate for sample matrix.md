@@ -64,12 +64,12 @@ $$
 \left|\frac{1}{m}\mu_i(\Phi_l\Lambda_l \Phi_l^{\ast}) - \mu_i(\mathcal{G})\right|\le \mu_i(\mathcal{G})\left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op}.
 $$
  
-Then, we obtain the bound (Ostrowski theorem and Weyl's theorem)
+Then, we obtain the bound (Ostrowski theorem and Weyl's theorem, respectively)
 
 $$
 \begin{aligned}
 |\mu_i(\mathcal{G}) - \frac{1}{m}\mu_i(G)| &\le |\mu_i(\mathcal{G}) -\frac{1}{m} \mu_i(\Phi_l\Lambda_l\Phi_l^T)| + |\frac{1}{m}\mu_i(\Phi_l\Lambda_l\Phi_l^T) - \frac{1}{m}\mu_i(G)| \\
-&\le \mu_i(\mathcal{G}) \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} + \underbrace{\frac{1}{m}\|G - \Phi_l\Lambda_l \Phi_l^{\ast}\|_{op}}_{\text{Weyl's inequality}}.
+&\le \mu_i(\mathcal{G}) \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} + \underbrace{\frac{1}{m}\|G - \Phi_l\Lambda_l \Phi_l^{\ast}\|_{op}}_{\text{by Weyl's inequality}}.
 \end{aligned}
 $$
 - The remainder term $G - \Phi_l\Lambda_l \Phi_l^{\ast} = \sum_{k > l} \mu_k \psi_k(x_i)\psi_k(x_j)$, a naive bound of the 2nd term will be $C \sum_{k > l} \mu_k$ if the eigenfunctions are uniformly bounded, otherwise the growth needs to be considered.  Of course, this bound is quite conservative since the $\{ \psi_k(x_i) \}_{i=1}^m$ can be viewed as some random vector for large $k$, then the central limit theorem can create a more aggressive estimate.
