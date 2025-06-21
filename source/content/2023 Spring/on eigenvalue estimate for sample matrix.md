@@ -35,20 +35,54 @@ The simplest idea to quantify the difference is probably **Weyl's inequality** f
 >\end{aligned}
 >$$
 
-Intuitively, the insufficiency of samples will only affect smaller eigenvalues (more oscillatory eigenfunctions), thus isolating the "safer" eigenfunctions is natural.
+Intuitively, the insufficiency of samples will only affect smaller eigenvalues (more oscillatory eigenfunctions), thus isolating the “safer” eigenfunctions is natural.
 
 Let the kernel $\mathcal{G}$ be expanded into its eigenfunctions:
 $$
-\mathcal{G}(x, y) = \sum_{k=1}^{\infty} \lambda_k \psi_k(x) \psi_k(y).
+\mathcal{G}(x, y) = \sum_{k=1}^{\infty} \mu_k(\mathcal{G}) \psi_k(x) \psi_k(y).
 $$
-And we pick a truncation $\mathcal{G}_m:= \sum_{k=1}^{m} \lambda_k \psi_k(x) \psi_k(y)$. Then the matrix $G$ can be split into two parts: 
+And we pick a truncation $\mathcal{G}_l:= \sum_{k=1}^{l} \lambda_k \psi_k(x) \psi_k(y)$. Then the matrix $G$ can be split into two parts: 
 $$
-G_{i, j} = \mathcal{G}_m(x_i, x_j) + (\mathcal{G}(x_i, x_j) - \mathcal{G}_m(x_i, x_j)).
+G_{i, j} = \mathcal{G}_l(x_i, x_j) + (\mathcal{G}(x_i, x_j) - \mathcal{G}_l(x_i, x_j)).
 $$
+The first part should be less affected by the sampling, thus we should expect the correlation   
+$$
+\frac{1}{m}\sum_{i=1}^m \psi_{k}(x_i) \phi_r (x_i)\approx \delta_{k, r}
+$$
+The common tool we use is Ostrowski's theorem[^2].
 
-## Notes
-- 
+>[!important] Ostrowski theorem
+>If $A\in \mathbb{C}^{n\times n}$ and $X\in\mathbb{C}^{n\times n}$, then 
+>$$
+>\mu_i(X^{\ast}A X) = \theta_i \mu_i(A), i\in [n].
+>$$
+>where $\mu_n(X^{\ast} X) \le \theta_i \le \mu_1(X^{\ast}X)$. 
+
+Let $(\Phi_l)_{i,j} = \psi_{j}(x_i)$ and $\Lambda_l = \operatorname{diag}(\mu_i(\mathcal{G}))_{i=1}^l$, then the theorem implies
+
+$$
+\left|\frac{1}{m}\mu_i(\Phi_l\Lambda_l \Phi_l^{\ast}) - \mu_i(\mathcal{G})\right|\le \mu_i(\mathcal{G})\left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op}.
+$$
+ 
+Then, we obtain the bound (Ostrowski theorem and Weyl's theorem)
+
+$$
+\begin{aligned}
+|\mu_i(\mathcal{G}) - \frac{1}{m}\mu_i(G)| &\le |\mu_i(\mathcal{G}) -\frac{1}{m} \mu_i(\Phi_l\Lambda_l\Phi_l^T)| + |\frac{1}{m}\mu_i(\Phi_l\Lambda_l\Phi_l^T) - \frac{1}{m}\mu_i(G)| \\
+&\le \mu_i(\mathcal{G}) \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} + \frac{1}{m}\|G - \Phi_l\Lambda_l \Phi_l^{\ast}\|_{op}.
+\end{aligned}
+$$
+- The remainder term $G - \Phi_l\Lambda_l \Phi_l^{\ast} = \sum_{k > l} \mu_k \psi_k(x_i)\psi_k(x_j)$, a naive bound of the 2nd term will be $C \sum_{k > l} \mu_k$ if the eigenfunctions are uniformly bounded, otherwise the growth needs to be considered. 
+- The first term can be quantified by viewing $x_i$ as a certain quadrature rule, or ready for Hoeffding's inequality. We should expect the stochastic bound $O(m^{-1/2}\sqrt{\log l^2/p})$ for each entry with probability $1 - \frac{p}{l^2}$, therefore, with probability $1 - p$,
+  $$
+   \left\|\frac{1}{m}\Phi_l^T\Phi_l - Id_l\right\|_{op} = O\left(\sqrt{m \log l^2/p}\right).
+   $$
+
+Another approach for well-structured points $x_i$ is using the min-max principle for eigenvalues, which usually involves an explicit construction of subspace, see also [[on convergence of graph Laplacian's eigenvalues]].
 ## Links
 - [[on two-layer ReLU networks]]
+- [[on convergence of graph Laplacian's eigenvalues]]
 
 [^1]: Widom, Harold. "On the eigenvalues of certain Hermitian operators." _Transactions of the American Mathematical Society_ 88.2 (1958): 491-522.
+
+[^2]: https://en.wikipedia.org/wiki/Ostrowski%27s_theorem

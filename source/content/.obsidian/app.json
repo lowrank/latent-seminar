@@ -8,7 +8,10 @@
     "önwall's",
     "Wishart",
     "ReLU",
-    "Widom"
+    "Widom",
+    "Hoeffding-like",
+    "Hoeffding",
+    "Hermitian"
   ],
   "alwaysUpdateLinks": true
 }
